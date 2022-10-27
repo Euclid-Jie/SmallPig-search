@@ -1,6 +1,6 @@
 # 爬取小猪民宿信息
 
-此工作基本实现小猪网页版https://m.xiaozhu.com/，基本信息的获取，包括民宿的房东信息和民宿的评价信息，需要使用到`selenium`方法
+此工作基本实现[小猪网页版](https://m.xiaozhu.com/)，基本信息的获取，包括民宿的房东信息和民宿的评价信息，需要使用到`selenium`方法
 
 ## 代码结构
 
@@ -53,7 +53,7 @@ https://m.xiaozhu.com/#/result?cityId=272&city=揭阳市&landmark=&timeZone=&che
 ## 注意事项
 
 - 数据采集过程中，请勿关闭弹出浏览器窗口
-- 各民宿信息主页可以访问https://m.xiaozhu.com/#/detail?luId=152118827297访问，修改`luid`即可
+- 各民宿信息主页可以访问[网址](https://m.xiaozhu.com/#/detail?luId=152118827297)访问，修改`luid`即可
 
 - 此工作无需设置`header`，但请务必保证网速良好
 - 此项目较为成熟，如有问题欢迎`Issues`
